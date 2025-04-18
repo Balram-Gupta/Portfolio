@@ -11,6 +11,15 @@ words.forEach((word)=>{
     });
 });
 
+ const hireBtn = document.getElementById('hireBtn');
+
+    hireBtn.addEventListener('click', function() {
+      const phoneNumber = '9599841192';
+      const message = 'Hi%2C%20I%20would%20like%20to%20hire%20you%20for%20a%20project%20🙂';
+      const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+      window.open(whatsappUrl, '_blank');
+    });
+
 let currWordIdx = 0;
 let maxWordIdx = words.length-1;
 
