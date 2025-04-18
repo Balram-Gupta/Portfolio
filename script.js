@@ -11,8 +11,6 @@ words.forEach((word)=>{
     });
 });
 
-
-
 let currWordIdx = 0;
 let maxWordIdx = words.length-1;
 
